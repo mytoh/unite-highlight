@@ -33,9 +33,6 @@ function! s:on_syntax(args, context)
           \ 'contained containedin=uniteSource__Highlight'
     execute 'highlight default link uniteSource__Highlight_' . hiname hiname
   endfor
-  " syntax match uniteSource__Highlight_SpecialKey /xxx/
-  "       \ contained containedin=uniteSource__Highlight
-  " highlight default link uniteSource__Highlight_SpecialKey SpecialKey
 endfunction
 
 function! s:unite_source.hooks.on_syntax(args, context)"{{{
