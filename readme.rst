@@ -2,4 +2,4 @@
 unite-highlight
 ===============
 
-.. image:: unite_highlight.png
+.. image:: http://github.com/mytoh/unite-highlight/raw/master/unite_highlight.png
